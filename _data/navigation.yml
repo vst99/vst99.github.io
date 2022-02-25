@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /aboutwushu
+  - title: "Schedule"
+    url: /schedule
+  - title: "Meet us"
+    url: /meetus
