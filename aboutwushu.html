@@ -1,20 +1,11 @@
+---
+title: About
+---
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <title>Dragon Phoenix Wushu | About</title>
-    <link rel="icon" href="assets/images/icon.png">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="robots" content="noindex">
-</head>
-
+    {% include head.html %}
     <body>
-        <header>
-    <a href="/">Home</a>
-    <a href="aboutwushu">About</a>
-    <a href="schedule">Schedule</a>
-    <a href="meetus">Meet Us</a>
-</header>
-
+        {% include contentheader.html %}
 
         <main>
         <h1>About Wushu</h1>
@@ -23,14 +14,7 @@
         <iframe id="vid" src="https://www.youtube.com/embed/8AHHY-N0QPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </main>
 
-        <footer>
-    <p>Social media thingies or whatever:
-        <a href="https://www.facebook.com/dragonphoenixwushu" class="social-icon"> <i class="fa fa-facebook"></i></a>
-        <a href="https://www.instagram.com/dragonphoenixwushuclub/" class="social-icon"> <i class="fa fa-instagram"></i></a>
-        <a href="https://www.youtube.com/channel/UCDP9RGj4-etbfd1NqWTjIeA" class="social-icon"> <i class="fa fa-youtube"></i></a>
-        <a href="mailto:dragonphoenixwushuclub@osu.edu" class="social-icon"> <i class="fa fa-envelope-o"></i></a></p>
-</footer>
-
+        {% include footer.html %}
     </body>
 
 </html>
