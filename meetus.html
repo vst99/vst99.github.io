@@ -2,12 +2,7 @@
 title: Meet Us
 layout: single
 ---
-<img src="/assets/images/profile.png" alt="bryanandsim">
-<p>Our coaches are Bryan and Simran, combined 50-time world champions</p>
-
-
-<img src="/assets/images/profile.png" alt="wesley">
-<p>Our most glorious leader is Wesley. He does changquan (ew)</p>
-
-<img src="/assets/images/profile.png" alt="ann">
-<p>Our vice president and designated money manager is Ann. She does broadsword and broadsword</p>
+{% for item in site.data.members %}
+<img src={{item.picture}} alt={{item.alt-text}}>
+<p>{{item.blurb}}</p>
+{% endfor %}
