@@ -24,5 +24,12 @@
     height: 100%;
 }
 
+$masthead-color: #bb0000;
+$masthead-link-color: white;
+$primary-color: white;
+$footer-background-color: #bb0000;
+$muted-text-color: #D1D1D1;
+$navicon-link-color-hover: white;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
