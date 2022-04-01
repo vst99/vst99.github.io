@@ -7,3 +7,5 @@ main:
     url: /schedule
   - title: "Meet us"
     url: /meetus
+  - title: "Gallery"
+    url: /gallery
