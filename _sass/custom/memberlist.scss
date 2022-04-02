@@ -1,0 +1,44 @@
+@media screen {
+        .member {
+            display: inline-flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 25px 0px;
+        }
+        .image {
+            float: left;
+            width: 35%;
+            max-width: 350px;
+        }
+        .profile {
+            float: left;
+            padding: 0px 0px 0px 50px;
+            width: 65%;
+            margin: auto;
+        }
+        .profile_image {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .member {
+            display: inline-flex;
+            flex-direction: column;
+            width:100%;
+        }
+        .image {
+            margin: auto;
+            width: 80%;
+            max-width: 350;
+        }
+        .profile {
+            float: left;
+            padding: 20px 0px;
+            width: 80%;
+            max-width: 350px;
+        }
+        .profile_image {
+            width: 100%;
+        }
+    }

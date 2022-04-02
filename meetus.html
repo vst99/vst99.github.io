@@ -3,7 +3,4 @@ title: Meet Us
 layout: single
 classes: wide
 ---
-{% for item in site.data.members %}
-<img src={{item.picture}} alt={{item.alt-text}}>
-<p>{{item.blurb}}</p>
-{% endfor %}
+{% include memberlist.html memberlist=site.data.members%}
