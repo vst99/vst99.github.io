@@ -95,9 +95,13 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Organization # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://facebook.com/dragonphoenixwushu"
+    - "https://instagram.com/dragonphoenixwushuclub"
+    - "https://www.youtube.com/channel/UCDP9RGj4-etbfd1NqWTjIeA"
+    - "https://www.tiktok.com/@dragonphoenixwushu"
 
 # Analytics
 analytics:
@@ -111,7 +115,7 @@ analytics:
 author:
   name             : "Dragon Phoenix Wushu Club"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "The Ohio State University's Wushu Club."
+  bio              : "The Ohio State University's wushu club."
   location         : "The Ohio State University, Columbus, Ohio"
   email            : "dragonphoenixwushuclub@osu.edu"
   links:
@@ -126,13 +130,19 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      url: "https://facebook.com/dragonphoenixwushu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/dragonphoenixwushuclub"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCDP9RGj4-etbfd1NqWTjIeA"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://www.tiktok.com/@dragonphoenixwushu"
 
 # Site Footer
 footer:
