@@ -1,4 +1,4 @@
 {% assign memberlist = include.memberlist %}
-{% for item in site.data.members %}
+{% for item in memberlist %}
     {% include member.html member=item %}
 {% endfor %}
